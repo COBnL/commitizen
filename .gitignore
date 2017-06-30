@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+.idea
+yarn.lock
+dist
+coverage
+*.log*
+.out
+npm-shrinkwrap.json
+package-lock.json
+.nyc_output
+reports
+bdd/screenshots

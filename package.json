@@ -1,0 +1,37 @@
+{
+  "name": "cob-commitizen",
+  "version": "0.0.0-semantically-released",
+  "description": "COB Commitizen adapter following the conventional-changelog format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "lint": "eslint {prompt/**,.}/*.js",
+    "precommit": "npm run lint",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "author": "brokenmass <massa84@gmail.com>",
+  "homepage": "https://github.com/brokenmass/cob-commitizen",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brokenmass/cob-commitizen.git"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "app-root-path": "^2.0.1",
+    "inquirer": "^3.1.1",
+    "shelljs": "^0.7.8",
+    "word-wrap": "^1.2.3"
+  },
+  "devDependencies": {
+    "commitizen": "^2.9.5",
+    "eslint": "^4.1.1",
+    "eslint-config-canonical": "^9.2.0",
+    "husky": "^0.14.1",
+    "semantic-release": "^6.3.6"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js"
+    }
+  }
+}

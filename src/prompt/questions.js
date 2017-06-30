@@ -77,15 +77,4 @@ const questions = [
   }
 ];
 
-const makePackagesQuestion = (allPackages, changedPackages) => ({
-  choices: allPackages,
-  default: changedPackages,
-  message: `The packages that this commit has affected (${changedPackages.length} detected)\n`,
-  name: 'packages',
-  type: 'checkbox'
-});
-
-module.exports = {
-  makePackagesQuestion,
-  questions
-};
+module.exports = questions;

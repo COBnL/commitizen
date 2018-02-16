@@ -1,6 +1,6 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
-# cob-commitizen
+# @cobnl/commitizen
 
 ## Setup
 
@@ -10,16 +10,16 @@ Install commitizen
 npm install -g commitizen
 ```
 
-Install the `cob-commitizen` package.
+Install the `@cobnl/commitizen` package.
 
 ```
-npm install --save-dev cob-commitizen
+npm install --save-dev @cobnl/commitizen
 ```
 
 Init commitizen configuration
 
 ```
-commitizen init cob-commitizen --save-dev --save-exact
+commitizen init @cobnl/commitizen --save-dev --save-exact
 ```
 
 ## Usage
